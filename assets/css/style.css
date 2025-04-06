@@ -1,0 +1,506 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  top:0;
+  z-index: 10;
+  background-color:rgb(15, 15, 30);
+}
+.navbar .contianer {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-nav {
+  list-style: none;
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 10rem;
+}
+/* .navbar .nav-link {
+  padding-top: 2rem;
+  text-decoration: none;
+  font-family: "Sigmar", sans-serif;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  font-family: "Battambang", system-ui;
+  margin-left: 10px;
+
+} */
+.navbar .search {
+  height: 30px;
+  border-radius: 6px;
+  width: 180px;
+  margin: 12px 5px;
+  margin-left: 42rem;
+  margin-top: 20px;
+}
+.navbar .submit {
+  width: 50px;
+  height: 30px;
+  margin:20px 5px;
+  border-radius: 6px;
+  margin-left: 3px;
+  font-family: "Battambang", system-ui;
+}
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: "Sigmar", sans-serif;
+}
+.i-user {
+  color: white;
+  display: flex;
+  padding: 30px 5px;
+  margin-left: 1rem
+}
+.i-shop {
+  color: white;
+  display: flex;
+  padding:30px 5px;
+}
+.Menu {
+  width: 100%;
+  height: 70px;
+  background-color: whitesmoke;
+}
+.Menu .container {
+  width: 1200px;
+}
+.Menu .navbar-nav {
+  list-style: none;
+  display: flex;
+  padding-top: 1rem;
+}
+.Menu .nav-link {
+  padding-top: 2rem;
+  text-decoration: none;
+  font-family: "Battambang", system-ui;
+  color: black;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.Menu .nav-link:hover{
+  text-decoration: underline;
+}
+
+.Menu .btn {
+  padding-top: 2rem;
+  text-decoration: none;
+  font-family: "Sigmar", sans-serif;
+  color: black;
+  padding: 10px 15px;
+  display: block;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-family: "Battambang", system-ui;
+}
+.Menu .btn-g {
+  padding-top: 2rem;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 10px 25px;
+  display: block;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+
+.Menu .btn:hover {
+  background-color: rgb(240, 193, 193);
+}
+.Menu .btn-g:hover {
+  background-color: whitesmoke;
+}
+.hero-banner {
+  width: 100%;
+  height: 550px;
+  margin-top: 2rem;
+}
+/* .container {
+  width: 1200px;
+  margin: auto;
+} */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 15px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ /* shoes-box */
+
+.Shoes-box {
+  width: 100%;
+  height: 1220px;
+  margin-top: 1rem;
+}
+.Shoes-box .container{
+  width: 1200px;
+  margin: auto;
+}
+.Shoes-box  .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-3{
+  width: 25%;
+  padding: 10px;
+}
+.Shoes-box .card{
+  width: 100%;
+  height: 340px;
+  position: relative;
+  box-shadow: -1px -3px 1px 3px whitesmoke;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: black;
+}
+.Shoes-box .card-body{
+  width: 100%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-top: 17rem;
+  background-color: aqua;
+}
+.Shoes-box  .card-title{
+  padding: 3px;
+  font-size: 20px;
+}
+.Shoes-box .card-price{
+  padding-left: 5px;
+}
+.Shoes-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top:-30px;
+} 
+/* flip-flops */
+.flip-flops {
+  width: 100%;
+  height: 460px;
+  margin-top: 1.5rem;
+}
+.flip-flops  .container{
+  width: 1200px;
+  margin: auto;
+}
+h1{
+  padding-top: 20px;
+  font-family: "Battambang", system-ui;
+}
+.flip-flops  .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ .col-3{
+  width: 25%;
+  padding: 10px;
+}
+.flip-flops  .card{
+  width: 100%;
+  height: 340px;
+  position: relative;
+  top:-20px;
+  box-shadow: -1px -3px 1px 3px whitesmoke;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: black;
+}
+.flip-flops  .card-body{
+  width: 100%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-top: 17rem;
+  background-color: beige;
+}
+.flip-flops  .card-title{
+  padding: 3px;
+  font-size: 20px;
+}
+.flip-flops  .card-price{
+ padding-left: 5px;
+}
+.flip-flops img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top:-30px;
+} 
+
+.footer {
+  width: 100%;
+  background-color: rgb(15, 15, 30);
+  height: 350px;
+  margin-top: 2rem;
+}
+.footer .container {
+  width: 1200px;
+  margin: auto;
+}
+.footer .title {
+  font-family: "Battambang", system-ui;
+  font-size: 15px;
+  padding-top: 1rem;
+  color: white;
+}
+.footer .text {
+  font-family: "Battambang", system-ui;
+  font-size: 14px;
+  padding-top: 1rem;
+  color: white;
+}
+.footer .row {
+  display: flex;
+}
+.col-4 {
+  width: 33.33%;
+  padding: 10px;
+}
+.footer .card {
+  width: 100%;
+  height: 150px;
+  /* background-color: red; */
+  margin-top: 2rem;
+}
+/* login */
+.form-login{
+    width: 100%;
+    /* background-color: rgb(15, 15, 30); */
+}
+.form-login .container{
+    width: 1200px;
+    margin: auto;
+}
+.form-login .row{
+    display: flex;
+}
+.col-6{
+    width: 50%;
+    padding: 10px;
+}
+ .form-login  .card{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(15, 15, 30);
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+.form-login .title{
+  width: 100%;
+  height: 450px;
+  margin-left: 8.5rem;
+  font-family: "Sigmar", sans-serif;
+  padding-top: 10rem;
+  color: white;
+  border-radius: 15px;
+  font-size: 40px;
+  
+}
+
+ .form-login .card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    
+}
+.form{
+    width: 500px;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.form-label{
+    display: block;
+    padding-bottom: 15px;
+
+}
+.form-control{
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border:none;
+    box-shadow: 0px 0px 1.5px grey;
+}
+.mb-3{
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 7px 15px;
+    border: none;
+    border-radius: 15px;
+    /* background-color: rgba(68, 68, 207, 0.862); */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.form-check{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    color: white;
+}
+.form-check-label{
+   padding-left: 5px;
+   font-size: 15px;
+   font-family: "Battambang", system-ui;
+   color: white;
+}
+.form-check-input{
+    width: 16px;
+    height: 16px;
+}
+.btn-login{
+  width: 500px;
+  height: 30px;
+  font-size: 18px;
+}
+.btn-password{
+  text-decoration: none;
+  color: black;
+  font-family: "Battambang", system-ui;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  color: white;
+}
+.sign-up{
+  width: 500px;
+  height: 40px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-acc{
+  text-decoration: none;
+  color: black;
+  font-family: "Battambang", system-ui;
+  color: white;
+}
+.btn-sign-up{
+  color: black;
+  font-family: "Battambang", system-ui;
+  padding-left: 25px;
+  color: white;
+}
+
+
+
+
+/* page-1 */
+.page1-color{
+    width: 100%;
+    height: 450px;
+}
+.page1-color .contianer{
+    width: 1200px;
+    margin: auto;
+}
+.page1-color .row{
+    display: flex;
+}
+.col-3{
+    width: 25%;
+    padding: 10px;
+    margin-top: 3rem;
+}
+.page1-color .card{
+    width: 100%;
+    height: 320px;
+    /* background-color: blue; */
+}
+.page1-color img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page1-color .card-body{
+  background-color: whitesmoke;
+  height: 330px;
+  padding-left: 15px;
+}
+.page1-color .txt{
+  font-family: "Fira Sans", sans-serif;
+  padding-top: 2rem;
+  font-size: 18px;
+  
+}
+.page1-color .txt-color{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 1rem;
+    
+}
+.page1-color .size{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.page1-color .btn-size{
+    display: flex;
+   
+}
+.page1-color .btn{
+    margin-top: 15px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: white;
+}
+
+.page1-color .btn-buy{
+  margin-top: 3rem;
+  margin-left: 6.5rem;
+  font-size: 14px;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+ 
+}
